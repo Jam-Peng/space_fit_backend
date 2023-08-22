@@ -1,0 +1,86 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@layer base {
+  h1 {
+    @apply text-2xl;
+  }
+  h2 {
+    @apply text-xl;
+  }
+  h3 {
+    @apply text-lg;
+  }
+  p {
+    @apply text-base;
+  }
+  h4 {
+    @apply text-sm;
+  }
+  h5 {
+    @apply text-xs;
+  }
+  /* 消除Form 的 Number type的選項 */
+  /* Chrome, Safari, Edge, Opera */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply border rounded-md py-0.5 px-3;
+  }
+  .btn-add {
+    @apply bg-emerald-500/30 text-emerald-500 border-emerald-500;
+  }
+  .btn-add:hover {
+    @apply bg-emerald-500 text-slate-200;
+  }
+  .btn-success {
+    @apply bg-indigo-500/30 text-indigo-600 border-indigo-600;
+  }
+  .btn-success:hover {
+    @apply bg-indigo-600 text-slate-200;
+  }
+  .btn-delete {
+    @apply bg-rose-500/30 text-rose-600 border-rose-600;
+  }
+  .btn-delete:hover {
+    @apply bg-rose-600 text-slate-200;
+  }
+  .switch_checkbox {
+    @apply w-11 h-6 bg-gray-200 dark:bg-gray-700 after:content-[''] after:absolute after:top-[2px] after:left-[2px]
+          after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all
+          dark:border-gray-600;
+  }
+  .upload_img_input {
+    @apply relative m-0 block w-full min-w-0 flex-auto rounded border border-solid border-neutral-300 
+            bg-clip-padding px-3 py-[0.32rem] text-base font-normal text-neutral-700 transition duration-300 ease-in-out 
+            file:-mx-3 file:-my-[0.32rem] file:overflow-hidden file:rounded-none file:border-0 file:border-solid file:border-inherit 
+            file:bg-neutral-100 file:px-3 file:py-[0.32rem] file:text-neutral-700 file:transition file:duration-150 file:ease-in-out 
+            file:[border-inline-end-width:1px] file:[margin-inline-end:0.75rem] hover:file:bg-neutral-200 focus:border-primary 
+            focus:text-neutral-700  focus:outline-none dark:border-neutral-600 dark:text-neutral-200 
+            dark:file:bg-neutral-700 dark:file:text-neutral-100 dark:focus:border-primary;
+  }
+  .courseListHigh {
+    @apply h-[85px] transition-all duration-500;
+  }
+  .clientListHigh {
+    @apply h-[85px] transition-all duration-500;
+  }
+  .adminListHigh {
+    @apply h-[85px] transition-all duration-500;
+  }
+  .echartListHigh {
+    @apply h-[85px] transition-all duration-500;
+  }
+  .input_search {
+    @apply relative m-0 -mr-0.5 block flex-auto rounded-l-md text-base text-slate-800 outline-none leading-[1.6] 
+            border border-solid border-emerald-500 bg-transparent bg-clip-padding px-3 py-[0.05rem] 
+            transition duration-200 ease-in-out focus:z-[3] focus:border-emerald-400 focus:text-slate-800 focus:outline-none;
+  }
+}
