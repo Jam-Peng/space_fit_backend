@@ -1,6 +1,6 @@
 import axios from "axios";
-// const API_URL = "http://127.0.0.1:5000";
-const API_URL = "https://space-fit-server.onrender.com";
+const API_URL = "http://127.0.0.1:5000";
+// const API_URL = "https://space-fit-server.onrender.com";
 
 class EchartService {
   // 取得所有訂單分類的購買次數、價錢資料 - 累加所有的資料
