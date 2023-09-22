@@ -5,7 +5,7 @@
 # SPACE FIT 健身網站 - 後台管理系統 
 </div>
 
-> ⚠ 測試操作請同時下載前、後台資料包 : <br>
+> ⚠ 測試操作請同時下載前台、伺服器資料包 : <br>
 前台 --> https://github.com/Jam-Peng/space_fit_frontend <br>
 伺服器 --> https://github.com/Jam-Peng/space_fit_server
 
