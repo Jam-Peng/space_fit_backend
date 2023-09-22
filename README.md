@@ -9,7 +9,7 @@
 前台 --> https://github.com/Jam-Peng/space_fit_frontend <br>
 伺服器 --> https://github.com/Jam-Peng/space_fit_server
 
->⚠ 由於將資料庫部署 Aws 選擇較低的 CPU 配置，影響應用程序與數據庫查詢的時間增加，從而降低網頁加載速度。
+>⚠ 由於將資料庫部署 Aws 選擇較低的 CPU 配置，影響應用程序與數據庫查詢的時間增加，降低網頁加載速度。
 
 
 ###  Preview :
